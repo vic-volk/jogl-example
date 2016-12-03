@@ -2,7 +2,7 @@
 
 Getting started:
 ```
-git clone
+git clone git@github.com:vic-volk/jogl-example.git
 cd jogl-example
 mvn clean
 mvn install
