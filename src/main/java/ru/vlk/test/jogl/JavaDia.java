@@ -29,7 +29,8 @@ public class JavaDia implements Runnable, KeyListener {
         canvas.addKeyListener(this);
         frame.pack();
         frame.setLocationRelativeTo(null);
-        
+        frame.setLocation(0, 0);
+
         frame.addWindowListener(new WindowAdapter() {
             public void windowClosing(WindowEvent e) {
                 bQuit = true;
