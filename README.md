@@ -3,6 +3,7 @@
 Getting started:
 ```
 git clone
+cd jogl-example
 mvn clean
 mvn install
 cd target
